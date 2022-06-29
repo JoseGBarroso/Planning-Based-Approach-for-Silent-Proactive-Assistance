@@ -1,0 +1,40 @@
+(define (problem teleport-assistance6_problem_63_prime)
+  (:domain teleport-assistance6_prime)
+  (:objects
+    pos0-2 pos1-3 pos2-1 pos3-0 pos3-3 pos4-0 pos5-0 pos5-1 pos6-1 pos6-2 pos6-3 pos7-0 pos7-3 pos8-2 pos8-3 pos9-2 pos9-3  - place)
+
+  (:init
+    (adj-walk pos3-0 pos4-0 )
+    (adj-walk pos4-0 pos3-0 )
+    (adj-walk pos4-0 pos5-0 )
+    (adj-walk pos5-0 pos4-0 )
+    (adj-walk pos5-0 pos5-1 )
+    (adj-walk pos5-1 pos5-0 )
+    (adj-walk pos5-1 pos6-1 )
+    (adj-walk pos6-1 pos5-1 )
+    (adj-walk pos6-1 pos6-2 )
+    (adj-walk pos6-2 pos6-1 )
+    (adj-walk pos6-2 pos6-3 )
+    (adj-walk pos6-3 pos6-2 )
+    (adj-walk pos6-3 pos7-3 )
+    (adj-walk pos7-3 pos6-3 )
+    (adj-walk pos7-3 pos8-3 )
+    (adj-walk pos8-3 pos7-3 )
+    (adj-walk pos8-2 pos8-3 )
+    (adj-walk pos8-3 pos8-2 )
+    (adj-walk pos8-2 pos9-2 )
+    (adj-walk pos9-2 pos8-2 )
+    (adj-walk pos8-3 pos9-3 )
+    (adj-walk pos9-3 pos8-3 )
+    (adj-walk pos9-2 pos9-3 )
+    (adj-walk pos9-3 pos9-2 )
+
+    (at-prime pos4-0)
+    (= (total-cost) 0)
+  )
+
+
+  (:goal (and (at-prime pos9-3)))
+  (:metric minimize (total-cost))
+
+)

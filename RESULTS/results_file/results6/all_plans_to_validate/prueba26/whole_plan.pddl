@@ -1,0 +1,8 @@
+0: (sup_noop )
+1: (pri_walk pos3-6 pos3-7 )
+2: (sup_noop )
+3: (pri_walk pos3-7 pos3-8 )
+4: (sup_noop )
+5: (pri_walk pos3-8 pos4-8 )
+6: (sup_noop )
+7: (pri_walk pos4-8 pos5-8 )

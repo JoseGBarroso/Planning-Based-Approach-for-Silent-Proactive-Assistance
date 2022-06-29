@@ -1,0 +1,43 @@
+(define (problem teleport-assistance7_problem_48_supporter)
+  (:domain teleport-assistance7_supporter)
+  (:objects
+    pos0-1 pos0-3 pos0-4 pos0-5 pos0-7 pos1-2 pos1-4 pos1-7 pos2-1 pos2-2 pos2-3 pos2-4 pos2-5 pos2-7 pos2-8 pos3-0 pos3-1 pos3-2 pos3-3 pos3-5 pos3-6 pos3-7  - place)
+
+  (:init
+    (free pos0-1)
+    (free pos0-3)
+    (free pos0-4)
+    (free pos0-5)
+    (free pos0-7)
+    (free pos1-2)
+    (free pos1-4)
+    (free pos1-7)
+    (free pos2-1)
+    (free pos2-2)
+    (free pos2-3)
+    (free pos2-4)
+    (free pos2-5)
+    (free pos2-7)
+    (free pos2-8)
+    (free pos3-0)
+    (free pos3-1)
+    (free pos3-2)
+    (free pos3-3)
+    (free pos3-5)
+    (free pos3-6)
+    (free pos3-7)
+
+    (at-teleport pos3-3 disabled)
+    (at-teleport pos2-4 disabled)
+    (at-teleport pos1-2 disabled)
+    (at-teleport pos0-1 disabled)
+    (at-teleport pos2-1 disabled)
+    (teleport_can_be_activated)
+    (is-goal pos0-5)
+
+    (at-prime pos0-7)
+    (= (total-cost) 0)
+  )
+
+
+)

@@ -1,0 +1,5 @@
+0: (sup_activate-teleport-origin pos0-1 )
+1: (pri_walk pos1-2 pos0-2 )
+2: (sup_activate-teleport-destination pos2-4 )
+3: (pri_walk pos0-2 pos0-1 )
+4: (sup_use-teleport pos0-1 pos2-4 )

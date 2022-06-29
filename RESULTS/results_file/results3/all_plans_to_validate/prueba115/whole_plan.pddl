@@ -1,0 +1,8 @@
+0: (sup_create-connection node2 node1 )
+1: (pri_move node2 node1 )
+2: (sup_noop )
+3: (pri_move node1 node3 )
+4: (sup_noop )
+5: (pri_move node3 node4 )
+6: (sup_noop )
+7: (pri_move node4 node5 )
